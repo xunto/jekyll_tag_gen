@@ -37,9 +37,8 @@ def gen_tag_page(tag: str, tag_layout: str):
     return content
 
 
-def generate(project_path: str, tag_layout: str):
+def generate(project_path: str, tags_path: str, tag_layout: str):
     posts_path = os.path.join(project_path, "_posts")
-    tags_path = os.path.join(project_path, "_tags")
 
     if not os.path.isdir(posts_path):
         raise NotADirectoryError(posts_path)
