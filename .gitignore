@@ -1,0 +1,4 @@
+.idea
+/build/
+/dist/
+/jekyll_tag_gen.egg-info/
