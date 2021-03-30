@@ -14,7 +14,7 @@ setuptools.setup(
     url="",
     packages=setuptools.find_packages(),
     classifiers=[],
-    install_requires=["pyyaml==5.3.1"],
+    install_requires=["pyyaml==5.4"],
     scripts=['bin/jekyll_tag_gen'],
     python_requires='>=3.6',
 )
